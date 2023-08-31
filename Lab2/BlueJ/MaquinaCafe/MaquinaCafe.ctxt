@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MaquinaCafe
+comment1.params=
+comment1.target=MaquinaCafe()
+comment2.params=pregunta
+comment2.target=boolean\ preguntarSiNo(java.lang.String)
+comment3.params=unidadesVenta
+comment3.target=void\ comprarCafe(int)
+comment4.params=
+comment4.target=int\ calcularPrecio()
+comment5.params=dineroRecibido
+comment5.target=void\ recibirDinero(int)
+comment6.params=
+comment6.target=int\ calcularCambio()
+comment7.params=
+comment7.target=void\ entregarCafe()
+numComments=8
