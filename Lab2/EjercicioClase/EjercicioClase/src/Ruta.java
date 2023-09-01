@@ -5,9 +5,10 @@ public class Ruta {
     public Ruta( int id){
         this.id = id;
         cantidadParadas = 0;
+
     }
 
-    public void agregarPrada(String parada) {
+    public void agregarParada(String parada) {
         paradas[cantidadParadas] = parada;
         cantidadParadas ++;
     }
