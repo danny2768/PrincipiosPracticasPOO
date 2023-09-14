@@ -13,8 +13,6 @@ public class Main {
         System.out.println("La ruta para " + march.getBrand() + " " + march.getModel() +" es:");
         march.route.printRoute();
 
-        // ! Fix city issue.
-        // TODO: Add getters and setters for all the classes
-
     }
 }
+

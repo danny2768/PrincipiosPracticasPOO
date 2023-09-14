@@ -1,5 +1,3 @@
-
-// * This class manage the car information.
 public class Car {
     public Color color;
     public Route route;

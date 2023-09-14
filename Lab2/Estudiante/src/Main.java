@@ -10,8 +10,6 @@ public class Main {
         faculty.addSchool(school);
         faculty.addSchool(school1);
 
-
-
         school.addStudent(student);
         System.out.println("Información del estudiante:");
         student.printInfo();
