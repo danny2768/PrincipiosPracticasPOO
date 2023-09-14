@@ -1,19 +1,22 @@
 public class Main {
     public static void main(String[] args) {
 
+        Address studentAddress = new Address("Cra 27 #56", "No Idea", "Bucaramanga");
+        Student student = new Student("Juan", 1, studentAddress);
 
-        Student student1 = new Student("Juan Perez", 5);
+        School school = new School("Escuela de Ingeniería de Sistemas");
+        School school1 = new School("Escuela de Ingeniería civil");
+        Faculty faculty = new Faculty("FisicoMecanicas");
+        faculty.addSchool(school);
+        faculty.addSchool(school1);
 
-        Address address1 = new Address("Calle 1 #1-1", "Chapinero", "Bogota");
-        Student student2 = new Student("Juan Perez", 5, address1);
 
-        Address address2 = new Address("Calle 1 #1-1", "Santa ana", "Medellin");
-        Student student3 = new Student("Pablo Perez", 3, address2);
 
-        student1.setAddress(address2);
-        student1.printInfo();
-        student2.printInfo();
-        student3.printInfo();
+        school.addStudent(student);
+        System.out.println("Información del estudiante:");
+        student.printInfo();
 
+        // Imprimir las escuelas en la facultad
+        faculty.printSchools();
     }
 }

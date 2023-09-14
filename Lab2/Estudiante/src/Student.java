@@ -14,16 +14,35 @@ public class Student {
         this.address = address;
     }
 
+    public void printInfo() {
+        System.out.println("Nombre: " + name);
+        System.out.println("Nivel: " + level);
+        System.out.println("Direccion: " + address.getCity() + " " + address.getTown() + " " + address.getDescription());
+    }
+
     public void setAddress(Address address) {
         this.address = address;
     }
 
-    public void printInfo() {
-        System.out.println("Nombre: " + name);
-        System.out.println("Nivel: " + level);
-        System.out.println("Direccion: " + address);
-        System.out.println("Descripcion: " + address.description);
-        System.out.println("Barrio: " + address.town + " Ciudad: " + address.city);
+    // * Getters
+    public int getLevel() {
+        return level;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    // * Setters
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
