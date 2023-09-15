@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Servicio {
-    public Muestra[] simples;
-    public Muestra[] especializadas;
+    private Muestra[] simples;
+    private Muestra[] especializadas;
 
 
     public Servicio(String serial, int profundidad, String fecha){
@@ -51,4 +51,14 @@ public class Servicio {
             muestra.setProfundidad(sc.nextInt());
         }
     }
+
+    public Muestra[] getEspecializadas() {
+        return especializadas;
+    }
+
+    public Muestra[] getSimples() {
+        return simples;
+    }
+
+
 }
