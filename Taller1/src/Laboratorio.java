@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Laboratorio {
     private Servicio[] servicios;
 
-    public Laboratorio(){
+    private Laboratorio(){
         servicios = new Servicio[100];
     }
 
