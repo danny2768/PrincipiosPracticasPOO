@@ -1,4 +1,6 @@
-public class Main {
+package Lab3.Ej3;
+
+public class HerenciaMultinivel {
     public static void main(String[] args) {
         System.out.println("Lobo");
         Lobo elLobo = new Lobo();

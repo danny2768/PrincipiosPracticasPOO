@@ -1,3 +1,5 @@
+package Lab3.Ej3;
+
 public class Animal {
 
     public void comer() {
