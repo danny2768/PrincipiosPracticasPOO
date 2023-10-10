@@ -13,9 +13,4 @@ public class Nomina extends Tarjeta{
     public double cuotaDeManejo(){
         return (cuotaManejo - EDescuento.PLATINO.getValorDescontado(cuotaManejo));
     }
-
-    @Override
-    public double getValorApertura() {
-        return super.getValorApertura();
-    }
 }

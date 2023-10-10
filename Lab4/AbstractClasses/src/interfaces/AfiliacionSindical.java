@@ -1,3 +1,5 @@
+package interfaces;
+
 public interface AfiliacionSindical {
     public double getBonoAntiguedad();
 
