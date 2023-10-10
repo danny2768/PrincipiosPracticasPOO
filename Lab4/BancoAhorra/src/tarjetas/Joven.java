@@ -11,4 +11,9 @@ public class Joven extends Tarjeta{
     public double cuotaDeManejo(){
         return (cuotaManejo - EDescuento.BASICO.getValorDescontado(cuotaManejo));
     }
+
+    @Override
+    public double getValorApertura() {
+        return super.getValorApertura();
+    }
 }
