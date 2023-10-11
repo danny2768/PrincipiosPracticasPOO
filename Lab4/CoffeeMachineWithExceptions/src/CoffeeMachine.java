@@ -47,7 +47,8 @@ public class CoffeeMachine {
             }
 
         } else {
-            System.out.print( "Operacion fallida, la cantidad de onzas deseadas son mayores a las disponibles. Onzas disponibles: " + nivel);
+            System.out.print( "Operacion fallida, la cantidad de onzas deseadas " +
+                    "son mayores a las disponibles. Onzas disponibles: " + nivel);
             unidadesVenta = 0;
         }
 
