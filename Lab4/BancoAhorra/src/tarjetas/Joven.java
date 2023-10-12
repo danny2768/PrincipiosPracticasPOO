@@ -8,6 +8,7 @@ public class Joven extends Tarjeta{
         cuotaManejo = 20000;
     }
 
+    @Override
     public double cuotaDeManejo(){
         return (cuotaManejo - EDescuento.BASICO.getValorDescontado(cuotaManejo));
     }

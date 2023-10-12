@@ -10,6 +10,7 @@ public class Nomina extends Tarjeta{
         cuotaManejo = 20000;
     }
 
+    @Override
     public double cuotaDeManejo(){
         return (cuotaManejo - EDescuento.PLATINO.getValorDescontado(cuotaManejo));
     }
