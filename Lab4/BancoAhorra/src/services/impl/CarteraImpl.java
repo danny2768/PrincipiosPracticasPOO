@@ -10,7 +10,7 @@ public class CarteraImpl implements IPatronCartera {
     private String nombreMes;
     private List<Tarjeta> listaTarjetas;
 
-    public CarteraImpl(String nombreMes){
+    public CarteraImpl(String nombreMes) {
         this.nombreMes = nombreMes;
         listaTarjetas = new ArrayList<>();
     }

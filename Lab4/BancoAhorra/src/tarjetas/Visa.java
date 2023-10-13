@@ -11,7 +11,7 @@ public class Visa extends Tarjeta{
     }
 
     @Override
-    public double cuotaDeManejo(){
+    public double cuotaDeManejo() {
         return (cuotaManejo - EDescuento.DIAMANTE.getValorDescontado(cuotaManejo));
     }
 }
